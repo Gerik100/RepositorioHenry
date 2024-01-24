@@ -1,0 +1,121 @@
+/* Reset CSS */
+
+/* Box-sizing border-box por defecto */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Elementos de bloque */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Contenido oculto por defecto */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* Listas sin estilos y padding/margin por defecto */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Tamaños de fuente y estilos por defecto */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Estilos de enlace por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Elementos de tabla con reglas de borde de colapso por defecto */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilos de formulario por defecto */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Estilos de botón por defecto */
+button {
+  overflow: visible;
+}
+
+/* Renderizado consistente en navegadores */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Reseteo de legenda para la accesibilidad */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+}
+
+/* Reseteo de entradas 
+input[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}*/
+
+/* Reseteo de botones */
+button,
+input,
+select {
+  &:focus {
+    outline: none;
+  }
+}
+
+/* Estilos específicos de navegadores pueden ser añadidos a continuación */
+
+/* Estilos adicionales y personalizaciones pueden ser añadidos a continuación */
